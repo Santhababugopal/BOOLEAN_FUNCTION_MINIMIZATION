@@ -1,5 +1,9 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
+NAME : SANTHABABU  G
+
+REGISTER NUMBER : 212224040292
+
 **AIM:**
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
@@ -33,18 +37,33 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
+module EXP2(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
 
-Developed by: RegisterNumber:*/
+```
+TRUTH TABLE
 
 
-**RTL realization**
+![Screenshot 2025-04-23 141442](https://github.com/user-attachments/assets/557da1a9-ff2d-4aa0-8015-51b909f2bf8b)
+
+
+
+
 
 **Output:**
 
+![Screenshot 2025-04-16 185150](https://github.com/user-attachments/assets/e4c6e498-7126-4a23-a5d5-d96bdbf39901)
+
+
 **RTL**
 
-**Timing Diagram**
+![Screenshot 2025-04-16 185719](https://github.com/user-attachments/assets/df30e8c2-98a9-41ac-8c51-15b8de14d35f)
+
+
 
 **Result:**
 
